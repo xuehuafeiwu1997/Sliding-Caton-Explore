@@ -15,6 +15,7 @@
 		B6BF253C2578D2C6002796E0 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF253B2578D2C6002796E0 /* ______Tests.m */; };
 		B6BF25472578D2C6002796E0 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF25462578D2C6002796E0 /* ______UITests.m */; };
 		B6BF255C2578D35E002796E0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF255B2578D35E002796E0 /* FirstViewController.m */; };
+		B6BF25672578D90E002796E0 /* OttoFPSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF25662578D90E002796E0 /* OttoFPSButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		B6BF25482578D2C6002796E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BF255A2578D35E002796E0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		B6BF255B2578D35E002796E0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B6BF25652578D90E002796E0 /* OttoFPSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OttoFPSButton.h; sourceTree = "<group>"; };
+		B6BF25662578D90E002796E0 /* OttoFPSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OttoFPSButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,7 @@
 		B6BF251E2578D2C2002796E0 /* 滑动卡顿探究 */ = {
 			isa = PBXGroup;
 			children = (
+				B6BF25642578D90E002796E0 /* OttoFPSButton */,
 				B6BF251F2578D2C2002796E0 /* AppDelegate.h */,
 				B6BF25202578D2C2002796E0 /* AppDelegate.m */,
 				B6BF25252578D2C2002796E0 /* ViewController.h */,
@@ -132,6 +136,15 @@
 				B6BF25482578D2C6002796E0 /* Info.plist */,
 			);
 			path = "滑动卡顿探究UITests";
+			sourceTree = "<group>";
+		};
+		B6BF25642578D90E002796E0 /* OttoFPSButton */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF25652578D90E002796E0 /* OttoFPSButton.h */,
+				B6BF25662578D90E002796E0 /* OttoFPSButton.m */,
+			);
+			path = OttoFPSButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6BF25272578D2C2002796E0 /* ViewController.m in Sources */,
+				B6BF25672578D90E002796E0 /* OttoFPSButton.m in Sources */,
 				B6BF25212578D2C2002796E0 /* AppDelegate.m in Sources */,
 				B6BF25322578D2C5002796E0 /* main.m in Sources */,
 				B6BF255C2578D35E002796E0 /* FirstViewController.m in Sources */,
